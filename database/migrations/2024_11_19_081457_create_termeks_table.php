@@ -42,6 +42,13 @@ return new class extends Migration
         'ar' => 8000
     ]);
 
+    Termek::create([
+        'nev' => 'World of Warcraft',
+        'kategoria' => 'MMORPG',
+        'leiras' => 'A World of Warcraft ( WoW ) egy 2004-es, masszívan többszereplős online szerepjáték (MMORPG) videojáték , amelyet a Blizzard Entertainment készített. A Warcraft fantasy univerzumbanjátszódó World of Warcraft az Azeroth világában játszódik, körülbelül négy évvel a sorozat előző játékának, a Warcraft III: The Frozen Throne-nak az eseményei után .',
+        'ar' => 13000
+    ]);
+
 }
     /**
      * Reverse the migrations.
